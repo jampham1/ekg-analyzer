@@ -1,0 +1,26 @@
+# Core data
+numpy
+pandas
+ 
+# ECG signal processing
+wfdb
+neurokit2
+scipy
+ 
+# Machine learning
+torch
+torchvision
+scikit-learn
+imbalanced-learn
+ 
+# Image processing
+opencv-python-headless
+Pillow
+scikit-image
+ 
+# Visualization
+matplotlib
+plotly
+ 
+# Web app
+streamlit
