@@ -310,7 +310,7 @@ elif input_mode == "Upload ECG image (JPG/PNG)":
         )
 
     if uploaded_image is not None:
-        st.image(uploaded_image, caption="Uploaded ECG", width=True)
+        st.image(uploaded_image, caption="Uploaded ECG", use_container_width=True)
 
         with st.expander("Show image processing steps"):
             import cv2
@@ -324,9 +324,9 @@ elif input_mode == "Upload ECG image (JPG/PNG)":
             signal_only = remove_grid(gray)
 
             c1, c2, c3 = st.columns(3)
-            c1.image(img_array,   caption="Original",     width=True)
-            c2.image(gray,        caption="Preprocessed", width=True)
-            c3.image(signal_only, caption="Grid removed",  width=True)
+            c1.image(img_array,   caption="Original",     use_container_width=True)
+            c2.image(gray,        caption="Preprocessed", use_container_width=True)
+            c3.image(signal_only, caption="Grid removed",  use_container_width=True)
 
         run_img_btn = st.button("Analyze image", type="primary")
 
