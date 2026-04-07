@@ -1,4 +1,4 @@
-# EKG Arrhythmia Analyzer
+# EKG Beat Analyzer
 ## Purpose
 
 After working as an intern at a local Family Medicine clinic for two years, I realized that setting up EKGs on elderly patients and having to print out physical copies of EKG results from the machine for approval by the primary care physician was a process that was inefficient, keeping patients hooked into wires and held within waiting rooms for longer than necessary. Through this EKG analysis tool, I sought to develop a method to directly analyze EKG results electronically, as many EKGs typically export patient results in .png format. By using this tool, doctors can focus on patients that are deemed to have heart irregularities at a high confidence level and locate highlighted areas of concern much more efficiently. I hope this tool allows doctors to streamline the EKG process, allowing patients to spend less time attached to EKG machines as well as saving more time for doctors to spend directly consulting patients. 
